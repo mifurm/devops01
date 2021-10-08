@@ -4,13 +4,13 @@ https://github.com/mifurm/devops01
 az account set --subscription "mifurmsub"
 
 # Create Resource Group
-az group create -n tamopstfstates -l eastus2
+az group create -n devopstfstates -l eastus2
  
 # Create Storage Account
-az storage account create -n mftamopstf -g tamopstfstates -l eastus2 --sku Standard_LRS
+az storage account create -n mftamopstf -g devopsmftamopstf -l eastus2 --sku Standard_LRS
  
 # Create Storage Account Container
-az storage container create -n tfstatedevops --account-name mftamopstf
+az storage container create -n tfstatedevops --account-name devopsmftamopstf
 
 # Create Service Principal 
 az ad sp create-for-rbac --name tamopstf2
