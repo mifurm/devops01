@@ -8,6 +8,9 @@ AZURE_AD_CLIENT_SECRET =
 AZURE_AD_TENANT_ID = 
 AZURE_SUBSCRIPTION_ID = 
 
+ffca029c-a6e3-4630-9dfc-ff43256cd2f8
+
+
 az account set --subscription "mifurmsub"
 
 # Create Resource Group
