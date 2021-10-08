@@ -3,6 +3,11 @@ https://github.com/mifurm/devops01
 
 devops-st-1@michalfurmankiewiczhotmail.onmicrosoft.com
 
+AZURE_AD_CLIENT_ID =
+AZURE_AD_CLIENT_SECRET =
+AZURE_AD_TENANT_ID = 
+AZURE_SUBSCRIPTION_ID = 
+
 az account set --subscription "mifurmsub"
 
 # Create Resource Group
